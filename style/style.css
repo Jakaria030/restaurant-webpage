@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 21px 32px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+/* Banner Style */
+#banner{
+    height: 100vh;
+    background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .container{
+    width: 1023px;
+    text-align: center;
+}
+#banner .container .subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+#banner .container .title{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+}
+#banner .container .description{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+/* Card Styel */
+#card-box{
+    width: 1320px;
+    margin: 100px auto;
+}
+#card-box .card-header{
+    width: 691px;
+    margin: 0 auto;
+    text-align: center;
+}
+#card-box .card-header .subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+}
+#card-box .card-header .title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    margin: 16px 0;
+}
+#card-box .card-container{
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#card-box .card-container .card{
+    width: 424px;
+}
+#card-box .card-container .card .card-img{
+    width: 100%;
+    height: auto;
+}
+#card-box .card-container .card .card-img-desc{
+    text-align: center;
+}
+#card-box .card-container .card .card-img-desc h5{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    margin: 24px 0;
+    display: inline-block;
+    
+}
+#card-box .card-container .card .card-img-desc h1{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+}
+#card-box .card-container .card .card-img-desc p{
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 24px 0;
+    opacity: 0.7;
+}
+#card-box .btn-container{
+    text-align: center;
+}
+
+/* About Style */
+#about{
+    display: flex;
+    height: 671px;
+}
+#about .img-container{
+    width: 960px;
+}
+#about .follow-container{
+    width: 960px;
+}
+#about .follow-content{
+    width: 830px;
+    margin: 135px auto;
+    text-align: center;
+}
+#about .follow-content h1, #footer .follow-content h1{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+#about .follow-content p, #footer .follow-content p{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 24px 0;
+    opacity: 0.6;
+}
+#about .follow-content h3, #footer .follow-content h3{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+    opacity: 0.7;
+}
+#about .follow-content .icons, #footer .follow-content .icons{
+    display: block;
+    width: 100%;
+    margin: 32px 0;
+    text-align: center;
+}
+#about .follow-content .icons img, #footer .follow-content .icons img{
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+
+/* Footer Style */
+#footer{
+    width: 1920px;
+    background: linear-gradient(rgba(228, 228, 228, 0.9), rgba(228, 228, 228, 0.9)), url("../assets/social-bg.png") no-repeat center;
+    background-size: cover;
+}
+#footer .follow-content{
+    width: 830px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+#footer .follow-content h3{
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+
+}
